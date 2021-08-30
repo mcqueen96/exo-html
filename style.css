@@ -1,0 +1,76 @@
+.titre-vision-avenir{
+    color : blue;
+    border: 5px #d30b97fd 1remm
+    ;
+    background-color: rgba(247, 0, 255, 0.301);
+}
+p{
+    font-size: 20px;
+}
+.tresorerie{
+    background: palevioletred;
+    color: rgb(34, 95, 226);
+    border: 2px solid black;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    left: 10px;
+}
+.administration{
+    background-color: palevioletred;
+    color: rgb(26, 91, 231);
+    border: 2px solid black;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    left: 10px;
+}
+.distribution{
+    background: palevioletred;
+    color: rgb(31, 91, 221);
+    border: 2px solid black;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    left: 10px;
+}
+.content-caisse-vente{
+   display: flex;
+   position: absolute;
+   top: 350px;
+   margin-left: 0 auto;
+   margin-right: 0 auto;
+   left: 25%;
+}
+.content-image-head{
+    width: 200px;
+    margin: 0 auto;
+}
+.content-background-image {
+    height: 450px;
+    width: 100%;
+    background-image: url('dudu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.text-association{
+    height:350px ;
+    position: absolute;
+    top : 250px;
+}
+.domaines-action{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 135px;
+}
+.Lorem-Ipsum{
+    font-size: 20px;
+    text-align: center;
+}
+.FORMATION-EDUCATION-APPRENTISSAGE{
+    top: 350px;
+    width: 30px;
+
+}
