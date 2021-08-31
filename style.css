@@ -65,12 +65,28 @@ p{
     font-size: 30px;
     margin-top: 135px;
 }
-.Lorem-Ipsum{
+.lorem-ipsum{
     font-size: 20px;
     text-align: center;
+    left: 25%;
 }
-.FORMATION-EDUCATION-APPRENTISSAGE{
-    top: 350px;
-    width: 30px;
+.content-bloc-domaines{
+    font-size: 20px;
+    text-align: center;
+    left: 35%; 
+    margin-left: auto 0;
+    margin-right: auto 0;
+    top: 500px;   
+}
+.education{
+    display: flex;
+    margin-left: auto 0;
+    margin-right: auto 0;
 
+}
+.sante{
+    display: flex;
+}
+.environnement{
+    display: flex;
 }
