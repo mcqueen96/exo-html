@@ -38,9 +38,9 @@ p{
    display: flex;
    position: absolute;
    top: 350px;
-   margin-left: 0 auto;
-   margin-right: 0 auto;
-   left: 25%;
+   left: 12%;
+   width: 730px;
+   margin: 0 auto;
 }
 .content-image-head{
     width: 200px;
@@ -68,21 +68,73 @@ p{
 .lorem-ipsum{
     font-size: 20px;
     text-align: center;
-    left: 25%;
+ 
 }
 .content-bloc-domaines{
     font-size: 30px;
     text-align: center;
-    left: 35%; 
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    left: 25%; 
+  /*  margin-block-start: 1em;  
+    margin-block-end: 1em; */
     display: flex;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
+    width: 1000px;
+    margin: 0 auto;
 }
 .text-description{
     font-size: 12px;
+    
+}
+.sante {
+    padding: 10px;
+}
+.education {
+    padding: 10px;
+}
+.environnement {
+    padding: 10px;
+}
+/*
+.education {
+    padding: 10px;
+}
+*/
+.content-realisation-et-but{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 60px;
+}
+.content-but-realisation{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 60px;
+}
+.content-realisation-but{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 80px;
+}
+.education{
+    border: 2px solid black;
+    margin: 20px;
+}
+.sante{
+    border: 2px solid black;
+    margin: 20px;
+}
+.environnement{
+    border: 2px solid black;
+    margin: 20px;
+}
+.Dernieres-nouvelles-PA{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-top: 50px;
+}
+.lorem-text-of-the-printing{
+    font-size: 20px;
+    text-align: center;
+    top: 50px;
 }
 
